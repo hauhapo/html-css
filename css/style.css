@@ -27,6 +27,11 @@ body {
   background-size: cover;
 }
 
+.header-content {
+  flex-direction: column;
+  align-items: center;
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -34,8 +39,8 @@ body {
 }
 
 .header-top-right {
-  padding: 5% 20%;
-  justify-content: flex-end;
+  padding: 2.5em;
+  margin-left: 62em;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -48,9 +53,17 @@ body {
   text-decoration: none;
 }
 
+.sign-in:hover {
+	transform: scale(1.2, 1.2);
+}
+
 .about-us a {
   margin-right: 20px;
   text-decoration: none;
+}
+
+.about-us:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .logo {
@@ -76,6 +89,10 @@ body {
   font-size: 48px;
 }
 
+.list-icon {
+  transform: scale(1.2, 1.2);
+}
+
 .start-now {
   padding: 50px;
   text-transform: uppercase;
@@ -89,6 +106,16 @@ body {
   padding: 10px 30px;
   background-image: linear-gradient(to right, #429321, #b4ec51);
   box-shadow: 1px 1.5px 5px #888888;
+  transition: 1s;
+  position: relative;
+}
+
+.sn a:hover {
+  background-color: red;
+  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 /* ==================end header=========================== */
 .main {
@@ -102,6 +129,10 @@ body {
 
 .font-icon {
   font-size: 36px;
+}
+
+.font-icon:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .today {
@@ -120,18 +151,27 @@ body {
   line-height: 24px;
 }
 
+.para {
+  height: 28px;
+  text-overflow: ellipsis;
+  width: 555px;
+  overflow: hidden;
+  font-size: 13px;
+  color: #282828;
+  margin-top: 1.5em;
+  align-items: center;
+}
 .start-now2 {
   margin-top: 30px;
   text-transform: uppercase;
 }
-
 /* =======================END today========================== */
 .lists-content {
   height: 20em;
   background-image: linear-gradient(to right, #429321, #b4ec51);
 }
 .one-content {
-  padding: 0 6%;
+  padding: 0 74px;
   flex-direction: column;
   color: #ffffff;
 }
@@ -172,8 +212,7 @@ body {
 .customers {
   box-shadow: 0 -1px 8px #888888;
 }
-
-/* ==============End custommer==================================== */
+/* ==============End custommer=========================== */
 .our-customer {
   height: 544px;
   width: 100%;
@@ -187,14 +226,14 @@ body {
   width: 144px;
 }
 
+.one-customer:hover {
+  transform: scale(1.2, 1.2);
+}
+
 .us {
   font-size: 48pt;
   letter-spacing: -0.09px;
   padding: 50px 0;
-}
-
-.bot-content-customer {
-  margin-top: 50px;
 }
 
 .para-customer {
@@ -210,6 +249,18 @@ body {
   opacity: 40%;
 }
 
+.style-timore {
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 50%;
+  margin: 15px 11px 0 11px;
+}
+
+.timore-first {
+  background-color: #ffffff;
+}
+
 .ti-quote-left {
   padding-bottom: 100px;
 }
@@ -218,7 +269,7 @@ body {
   justify-content: flex-end;
   padding-top: 100px;
 }
-/* ============================================== */
+/* ==================End our customers ========================== */
 .footer {
   height: 180px;
   background-color: #39474e;
