@@ -60,6 +60,7 @@ body {
 .about-us a {
   margin-right: 20px;
   text-decoration: none;
+  color: rgb(40, 50, 56);
 }
 
 .about-us:hover {
@@ -78,7 +79,10 @@ body {
 .header-icon {
   width: 200px;
   text-align: center;
-  justify-content: center;
+}
+
+.header-icon:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .header-icon p {
@@ -87,10 +91,6 @@ body {
 
 .list-icon {
   font-size: 48px;
-}
-
-.list-icon {
-  transform: scale(1.2, 1.2);
 }
 
 .start-now {
